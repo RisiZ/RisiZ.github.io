@@ -6,7 +6,7 @@
     <title>Risi Zani</title>
       <link rel="stylesheet" href="grid.css">
 
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styler.css">
               <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://use.typekit.net/hse1lum.css">
 
@@ -14,20 +14,12 @@
 
 <style>
 .projectview:hover {
-  transform: scale(1);
+  transform: scale(1)!important;
      transition: all 0.5s ease-in-out;
-box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16);
+box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16)!important;
   cursor:auto;
 }
 
-h1 {
-
-  color: #40C6B2;
-}
-
-strong {
-    color: #40C6B2;
-}
 </style>
 
 <body>
@@ -46,55 +38,68 @@ strong {
 
 
   <div class="bodycontainer">
+
+
+    <nav class="menuhello desktop">
+
+  
+      <ul class="desktop">
+          <a href="index.html"><li class="onpage">Home</li></a> 
+          <a href="index.html"><li>Projects</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="studies.html"><li>Studies</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+      </ul>
+  </nav>
+
+
+
     <div class ="container">
+
+
+      <a href="index.html"><img src="logo.svg"  alt="logo" class="logo"></img></a>
+ 
+
+
+
+
         <div class="menucontainer">
-            <div class="menubox">
-                <div class="logoholder">
-                          <div class="logof1">
-                          R<strong>I</strong>
-                          </div>
-                          <div class="logof2">
-                          S<strong>I</strong>
-                          </div>
-                </div>
+          <div class="menubox">
 
-                <div class="menuplacement">
-                    <ul>
-                        <li><a href="index.html" >Home</a></li>
-                        <li style="padding-top:20px;"><a href="about.html">About</a></li>
-                    </ul>
-                </div>
+              
+                
+               
 
-                <div class="line"></div>
+            <div class="submenu">
+                
+                <ul>
+                  
+                    <h2>PROJECTS</h2>
+                    <div class="line"></div>
+                    <li><a href="#summary"><div class="nav">Summary</div></a>Problem Statement<br>Role, Tools & Skills <br> Our Challenges</li>
+                    <li><a href="#problem"><div class="nav">The Problem</div></a>Discovery <br> Persona <br> Product Criteria</li>
+                    <li><a href="#solution"><div class="nav">Solution</div></a>Solutions<br>Process<br>Product</li>
+                    <li><a href="#outcome"><div class="nav">Outcome</div></a>Award<br>Overcoming<br>Result</li>
+                
+                       
+                </ul>
+              
+           
 
-                <div class="submenu">
-                    <ul>
-                        <li><h3>Ecobin<h3></li>
-                        <li><a href="#question">question</a></li>
-                        <li style><a href="#tools">Tools</a></li>
-                          <li style><a href="#projectchallanges">Project Challanges</a></li>
-                          <li> <a href="#problem">Problem</li>
+        </div>
+        
+        <div class="socialmediacon">   
+          <div class="line"></div>
+          <ul>
+            <li><a href="https://www.instagram.com/zrisi.designs/"target="_blank" ><div class="instagram"></div></a></li>
+            <li><a href="https://www.behance.net/riseldazani"target="_blank" ><div class="behance"></div></a></li>
+              <li><a href="https://www.linkedin.com/in/risiz/"target="_blank" ><div class="linkedin"></div></a></li>
+              <li><a href="https://dribbble.com/risiz/"target="_blank" ><div class="dribble"></div></a></li>
+          </ul>
+    </div>
 
-                            <li style><a href="#persona">Pain Points</a></li>
-                              <li style><a href="#projectgoal">Project Goal</a></li>
-                            <li style><a href="#solution">Solution</a></li>
-                            <li style><a href="#features">Features</a></li>
-                            <li style><a href="#design">Design</a></li>
-                            <li style><a href="#reflection">Reflection</a></li>
-                    </ul>
 
-                </div>
-
-                <div class="socialmediacon" style="margin-left:20px; margin-top:10px;">
-                      <ul>
-                          <li><a href="https://www.linkedin.com/in/risiz/"target="_blank" ><div class="linkedin"></div></a></li>
-                          <li><a href="https://www.instagram.com/riszen7/"target="_blank" ><div class="instagram"></div></a></li>
-                          <li><a href="https://www.behance.net/riseldazani"target="_blank" ><div class="behance"></div></a></li>
-                      </ul>
-
-                </div>
-
-              </div>
+          </div>
         </div>
 
 
@@ -104,8 +109,9 @@ strong {
                     <div class="ecobin"></div>
                     <div class="projectviewtext">
 
-                            <h2><strong>EcoBin:</strong> RBC Hackathon 1st Place</h2>
-                            <p>Garbage sorting App using machine learning & location to sort it into the right bin.</p>
+                            <h2>EcoBin - Awarded 1st Place</h2>
+                            <p>Garbage sorting App using machine learning & location to sort it into the right bin.
+                            </p>
 
                             <ul>
                               <li><span>UX/UI</span></li>
@@ -118,229 +124,450 @@ strong {
             </div>
 
 
-                          <div id="question">
+            
+            <div id="tools">
+              <div class="constyle tools">
+                <div class="toolsrow1">
+                      <h3>Tools</h3>
+                      <ul style="margin-top:-5px;">
+                        <li> ADOBE XD</li>
+                         <li>HTML/CSS</li>
+                      </ul>
+                      <h3>Skills</h3>
+                      <ul style="margin-top:-5px;">
+                        <li>Teamwork</li>
+                      <li>Leading</li>
+                        <li>Time Management</li>
+                     
+                        <li>Presenting</li>
+                      </ul>
+                  </div>
+
+                  <div class="toolsrow2">
+                        <h3>Roles</h3>
+                        <ul style="margin-top:-5px;">
+                           <li>UX/UI</li>
+                           <li>Front-end</li>
+                        </ul>
+                        <h3>Teammates</h3>
+                        <ul style="margin-top:-5px;">
+                          <li><b>Business Analyst:</b> Danial Sheikh</li>
+                          <li><b>Developer: </b>Hasaan Sommro</li>
+                          <li><b>Data Scientist:</b> Wei Liu</li>
+                        </p>
+                    </div>
+            </div>
+         </div>
+
+                          <div id="summary">
                               <div class="constyle question">
-                                    <h2> How can we educate Canadians on the
-                                        benefits of recycling properly and reduce
-                                        the economic impact of contaminated
+                                    <h2> How can we <strong>educate</strong> Canadians on the
+                                        benefits of <strong>recycling</strong> properly and reduce
+                                        the <strong>economic impact</strong> of contaminated
                                         recyclables?
                                     </h2>
                               </div>
                          </div>
 
 
-                         <div id="tools">
-                              <div class="constyle tools">
-                                <div class="toolsrow1">
-                                      <h3>Tools</h3>
-                                      <ul style="margin-top:-5px;">
-                                        <li> ADOBE XD</li>
-                                         <li>HTML/CSS</li>
-                                      </ul>
-                                      <h3>Skills</h3>
-                                      <ul style="margin-top:-5px;">
-                                        <li>Problem Solving</li>
-                                      <li>Ideating</li>
-                                        <li> Teamwork</li>
-                                        <li>Time management</li>
-                                        <li>Presenting</li>
-                                      </ul>
-                                  </div>
+                 <div class="constyleno">
+                  <h2>Challenges</h2>
 
-                                  <div class="toolsrow2">
-                                        <h3>Roles</h3>
-                                        <ul style="margin-top:-5px;">
-                                           <li>UX/UI</li>
-                                           <li>Front-end</li>
-                                        </ul>
-                                        <h3>Teammates</h3>
-                                        <ul style="margin-top:-5px;">
-                                          <li> UX/UI: Risi Zani</li>
-                                          <li>Business Analyst: Danial Sheikh</li>
-                                          <li>Developer: Hasaan Sommro</li>
-                                          <li>Data Scientist: Wei Liu</li>
-                                        </p>
-                                    </div>
-                            </div>
-                         </div>
-
-
-                  <div id="projectchallanges">
-                        <div class="constyle imagentext">
-                            <div class="leftimage"></div>
-                            <div class="textleft">
-                                  <h1 style="color:#40C6B2">Project Challanges<h1>
-                                  <h2>24 Hour Hack</h2>
-                                  <p style="max-width:300px;">4 individuals with different fields of study whom never met collaborating </p>
-                                  <ul class="textwidth">
-                                    <li>• Allocating time for different phases of the project within 24 Hours.</li>
-                                    <li>• Understanding & learning the valuable knowlege and perspectives of Teammates</li>
-                                    <li>• Communicating design and the importance of certain elements  </li>
-                                    <li>• Developing solutions to project breaking issues within code or new found secondary research</li>
-                                    <li>• Allocating some team bonding time, sleeping when there's work to be done, not over snacking </li>
-                                  </ul>
-
-                            </div>
-                        </div>
+                  <div class="cardcontainer">
+                  <div class="card">
+                    <img src="time.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>24 Hours to Design<br> develop & present</h5>  
+                    </div>
                   </div>
 
-                  <div id ="problem">
-                  <div class="constyle fact">
-                      <h1>The Problem</h1>
-                        <h2 style="max-width:600px;">In some communities Educating Youth on Recycling has been reduced or cancelled because of taxes.</h2>
-                        <h2 style="max-width:600px;">I demonstrated my <strong> frustration</strong> of <strong>sorting garbage</strong> and how I've seen others <strong> feel </strong>the <strong>same</strong>.<br><br><strong> Do <i>you</i> feel the same?</strong></h2>
+                  <div class="card">
+                    <img src="people.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>We were <br> all Strangers</h5>  
+                    </div>
                   </div>
+
+                  <div class="card">
+                    <img src="project.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Project <br>management</h5>  
+                    </div>
+                  </div>
+
                 </div>
 
-                  <div id="persona">
+                <div class="cardcontainer">
+                  <div class="card">
+                    <img src="burn.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Burn Out</h5>  
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="talk.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>5 Minutes<br> to Present</h5>  
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="award.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Aim to be 1st:<br> $5000 Award</h5>  
+                    </div>
+                  </div>
+
+                </div>
+
+                </div>
+
+
+
+
+
+                <div class="constyleno newsection" id="problem">
+                  <div class="line2"></div>
+                  <h1>The Problem </h1>
+                </div>
+
+                <div class="constyle imagentext">
+                  <div class="leftimage"></div>
+                  <div class="textleft">
+                   <h2>Discovery of the Problem</h2>
+                   <p>I was on campus and got frustrated that I couldn't tell exactly where my items fit into the bin. I expressed this as an 'example' of a problem we could explore to my teammates</p>
+
+                  </div>
+              </div>
+
+
+           
+       
+
+             <div id="persona">
                         <div class="constyle projectview">
                         <div class="persona"></div>
                       </div>
                   </div>
 
-                  <div id="painpoints">
-                      <div class="constyle fact">
-                          <h3>Pain Points</h3>
-                          <ul>
-                              <li>• Accessibility of a tool to sort garbage with ease </li>
-                              <li>• Frustration of spending extra time standing by the garbage bins to decode the material </li>
-                              <li>• Finding the drive/motivation to build up an eco-friendly habit </li>
-                          </ul>
+                  
+                 <div class="constyleno">
+                  <h2>Criteria for Product</h2>
 
-                          <h3>Factors to consider</h3>
-                          <ul>
-                              <li>• Adopitablity for other businesses or locations to impliment  </li>
-                              <li>• A method to educate users at the same time</li>
-                              <li>• Usable for a wide audience </li>
-                          </ul>
-                      </div>
+                  <div class="cardcontainer">
+                  <div class="card">
+                    <img src="phone.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Accessible</h5>  
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="time.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Time Spent</h5>  
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="school.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Educating</h5>  
+                    </div>
+                  </div>
+
                 </div>
 
+                <div class="cardcontainer">
+                  <div class="card">
+                    <img src="switch.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Adoptability For Businesses</h5>  
+                    </div>
+                  </div>
 
-                <div id="projectgoal" style="margin-top:40%">
-                    <div class="constyle fact">
-                        <h1 style="color:#40C6B2">Project Goal</h1>
-                        <p class="textwidth">A product that is easily accessible to users that not only sorts
+                  <div class="card">
+                    <img src="cost.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Cost for Applying Product</h5>  
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="happy.svg" alt="icon" class="iconcard">
+                    <div class="containericon">
+                      <h5>Motivation</h5>  
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+                  <div class="constyle goal" style="background-color:white; box-shadow:0px 0px 0px;">
+                        <p> <strong> Project Goal:</strong> A product that is easily accessible to users that not only sorts
                           garbage into the correct bin but also educates and motivates them
                           to maintain this habit. In addition, to being adoptable in
-                          many different settings and for other businesses. </p>
+                          many different settings and for other businesses.
+                        </p>
 
-                        <h3>Target Audience</h3>
-                        <p class="textwidth">For the purpose of the hackathon, we are targeting young adults to adults whom are
-                          already consistently have their phones on them.</p>
+                        <p> <strong> Target Audience:</strong> 13 - 40. Tech friendly. May not necessarily be actively eco-friendly but also attempt to do their part
+                        </p>
+                  </div>
+         
 
-                          <h3>Measure of Success</h3>
-                          <p class="textwidth">Proof of concept. Machine learning should be able to detect the difference between cardboard and garbage.
-                          The main and camera page at a minumium must be coded. Presenting for 3 and thirty seconds and leaving the rest for questions for presentation.</p>
-                    </div>
-              </div>
-
-
-
-
-                <div id="solution">
-                    <div class="constyle solution">
-                          <video autoplay muted loop id="myVideo">
-                                <source src="ecobinpro.mp4" type="video/mp4">
-                                  Your browser does not support HTML5 video.
-                          </video>
-                          <div class="textleft">
-                                  <h1 style="color:#40C6B2"> Platform</h1>
-                                  <p style="max-width:250px;">The platform we decided on would be mobile. A mobile app that sorts garbage with a click of a button.</p>
-                                  <p style="max-width:300px;">It's <strong style="font-weight:700; font-size:20px;">quick, adoptable</strong> & <strong style="font-weight:700; font-size:20px;">accessible</strong>
-                                    because society has integrated phones in their daily life.
-                                     <br><br>The second concept, was having a device in the garbage bin itself to sort out the gabrage. However, an mobile app,
-                                    relays less on companies or locations to implement in each garbage bin (which I assume would be more difficult to push for this change and costly).</p>
-
+            
+                  <div class="constyleno newsection" id="solution">
+                    <div class="line2"></div>
+                    <h1>The Solution</h1>
+                  </div>
+  
+                  
+                    <div class="constyle sidebycon">
+                      <div class="smaller">
+                           <h2><strong>Solution 1</strong></h2>
+                           <p>Attachable Device on Bins using machince learning & Physical Computing</p>
+                      </div>
+      
+                        <div class="smaller">
+                              <h2 class="option2">Solution 2</h2>
+                              <p>Web App using machine learning to sort, user's location, QR code to activate & gamification
+                              </p>
                           </div>
-                    </div>
-                </div>
+                  </div>
 
 
-                <div id="features" style="margin-top:40%;">
-                      <div class="constyle projectview">
-                            <h1 style="margin-bottom:15%;">Features</h1>
-                            <div class="ecobinf1"></div>
+                  <div class="constyleno rank">
+                    <h3><strong>Solution 1: Ranking</strong></h3>
+                    <p>Attachable Device on Bins</p>
+  
+                    <div class="cardcontainerrank">
+                    <div class="cardrank">
+                      <img src="two.svg" alt="icon" class="iconcardrank">
+                      <div class="containericon">
+                        <h5>Accessible</h5>  
                       </div>
-
-                      <div class="constyle projectview">
-                            <div class="ecobinf2"></div>
-                      </div>
-                </div>
-
-
-                <div id="design">
-                    <div class="constyle imagentext">
-                        <div class="leftcolors">
-                          <ul>
-                              <li><div class="circle" style="background-color:#1ED56D"></div></li>
-                              <li><div class="circle" style="background-color:#006AC3"></div></li>
-                              <li><div class="circle" style="background-color:white; border: 1px solid grey;"></div></li>
-                          <ul>
-                        </div>
-                        <div class="textleft">
-                            <h1> Design</h1>
-                            <p class="textwidth"> Minimalistic design that uses color mainly as an affordance for navigation</p>
-                            <h3>Colour Scheme</h3>
-                            <p>Trendy, Earthy, Minimalistic<p>
-                            <ul>
-                                <li>• Vibrant green & blues to replicate earth's colors.</li>
-                                <li>• Positive, calming  & encouraging colors</li>
-                                <li>• Dominantly using a white due to contrast, simplicity and familiarity</li>
-                            <ul>
-                            <h3>Typography<h3>
-                            <ul>
-                                <li>• Museo-Sans. Geometric sans-serif font</li>
-                                <li>•  Easy to read even at smaller fonts</li>
-                                <li>• Size 14 to 16 font for better readability </li>
-                            <ul>
-                        </div>
-
                     </div>
+  
+                    <div class="cardrank">
+                      <img src="five.svg" alt="icon" class="iconcardrank">
+                      <div class="containericon">
+                        <h5>Time Spent</h5>  
+                      </div>
+                    </div>
+  
+                    <div class="cardrank">
+                      <img src="one.svg" alt="icon" class="iconcardrank">
+                      <div class="containericon">
+                        <h5>Educating</h5>  
+                      </div>
+                    </div>
+  
+                  </div>
+  
+                  <div class="cardcontainerrank">
+                    <div class="cardrank">
+                      <img src="two.svg" alt="icon" class="iconcardrank">
+                      <div class="containericon">
+                        <h5>Adoptability For Businesses</h5>  
+                      </div>
+                    </div>
+  
+                    <div class="cardrank">
+                      <img src="four.svg" alt="icon" class="iconcardrank">
+                      <div class="containericon">
+                        <h5>Cost for Applying Product</h5>  
+                      </div>
+                    </div>
+  
+                    <div class="cardrank">
+                      <img src="five.svg" alt="icon" class="iconcardrank">
+                      <div class="containericon">
+                        <h5>Motivation</h5>  
+                      </div>
+                    </div>
+  
+                  </div>
+                </div>
+  
+
+                <div class="constyle sidebycon">
+                  <div class="smaller">
+                       <h3>Benefits</h3>
+                       <p>Individual sorting not required
+                        Garbage sorting problems may be corrected heavily
+                        </p>
+                  </div>
+  
+                    <div class="smaller">
+                          <h3>Cons</h3>
+                          <p>Big Recycling boxes required. May be very expensive to implement for every single trash can. Does not educate
+                          </p>
+                      </div>
+              </div>
+  
+
+                <div class="constyleno rank">
+                  <h3 class="option2">Solution 2: Ranking</h3>
+                    <p>Mobile App</p>
+
+                  <div class="cardcontainerrank">
+                  <div class="cardrank">
+                    <img src="pfive.svg" alt="icon" class="iconcardrank">
+                    <div class="containericon">
+                      <h5>Accessible</h5>  
+                    </div>
+                  </div>
+
+                  <div class="cardrank">
+                    <img src="pthree.svg" alt="icon" class="iconcardrank">
+                    <div class="containericon">
+                      <h5>Time Spent</h5>  
+                    </div>
+                  </div>
+
+                  <div class="cardrank">
+                    <img src="pfour.svg" alt="icon" class="iconcardrank">
+                    <div class="containericon">
+                      <h5>Educating</h5>  
+                    </div>
+                  </div>
+
                 </div>
 
+                <div class="cardcontainerrank">
+                  <div class="cardrank">
+                    <img src="pfour.svg" alt="icon" class="iconcardrank">
+                    <div class="containericon">
+                      <h5>Adoptability For Businesses</h5>  
+                    </div>
+                  </div>
 
+                  <div class="cardrank">
+                    <img src="pthree.svg" alt="icon" class="iconcardrank">
+                    <div class="containericon">
+                      <h5>Cost for Applying Product</h5>  
+                    </div>
+                  </div>
 
+                  <div class="cardrank">
+                    <img src="pthree.svg" alt="icon" class="iconcardrank">
+                    <div class="containericon">
+                      <h5>Motivation</h5>  
+                    </div>
+                  </div>
 
-              <div id ="reflection">
-                <div class="constyle projectview" style="margin-top:40%;">
-                <div class="ecobinwin"></div>
+                </div>
               </div>
-              <div class="constyle fact">
-                  <h1>Reflection</h1>
-                  <h2>Team Ecobin Won!</h2>
-                  <ul style="max-width:450px;">
-                      <li style="font-weight:400;">• Working with different perspectives is a gift</li>
-                      <li  style="font-weight:400;">• Machine Learning reached 65% accuracy, All Pages but profile was coded</li>
-                      <li  style="font-weight:400;">• How to handle project obstacles in a short amount of time </li>
-                      <li  style="font-weight:400;">• Learning to use real experiences to solve problems</li>
-                      <li style="font-weight:400;">• Bonding with your team is vital to group working dynamic </li>
-                      <li style="font-weight:400;">• Problem solving is what interests me the most</li>
-                      <li style="font-weight:400;">• How the User interface and userflow can be shifted for a better experience</li>
-                      <li style="font-weight:400;">• Asking other designers from different groups despite being in a competition on their critique was helpful </li>
 
-                  </ul>
-              </div>
+
+              <div class="constyle sidebycon">
+                <div class="smaller">
+                     <h3>Benefits</h3>
+                     <p>Big population has a phone. More room to educate with constant use. Cost is in development. Easy to adopt for other businesses
+                      </p>
+                </div>
+
+                  <div class="smaller">
+                        <h3>Cons</h3>
+                        <p>Motiviating the user even with gamification may be difficult. UX has to be very efficient to save time.
+                        </p>
+                    </div>
             </div>
 
+           
+              <div class="constyle question" style="background-color:white; box-shadow: 0px 0px 0px">
+                    <h2> <strong2>Solution 2</strong2> Is the most viable and met the critiera better than Solution 1
+                    </h2>
+              </div>
+      
 
-            >
-            <div class="constyle fact">
-                <h1>How in twenty four hours?</h1>
-                <ul style="max-width:450px;">
-                    <li style="font-weight:400;"> • Seperating into two seperate groups, while providing feedback and communicating to each other</li>
-                    <li style="font-weight:400;">• Locating time for choosing our topic, ideation, problem solving, research, pain points, designing, coding and presentation</li>
-                    <li style="font-weight:400;">• While I worked on sitemaps, design and doing some research with the business analyst, back-end & data scientist worked on getting machine learning functioning and integerating it into web.</li>
-                    <li style="font-weight:400;">• Switching to communicate to back-end on how front-end/interface code worked. Then helping business analyst on presentation</li>
-                    <li style="font-weight:400;">• Being honest and communciate with eachother to create a level of understanding through different fields. Providing critique</li>
+              <div class="constyleno">
+                <h3>Process</h3>
+                 <img src="process.png" alt="icon" class="myimages">
+              </div>
 
+              <div class="constyleno">
+                <h3>Userflow</h3>
+                 <img src="userflow.png" alt="icon" class="myimages">
+              </div>
+              <div class="constyleno">
+                <h3>Site Map</h3>
+                 <img src="sitemap.png" alt="icon" class="myimages">
+              </div>
 
-                </ul>
+              <div class="constyleno">
+                <h3>Styleguide</h3>
+                 <img src="styleguideco.png" alt="icon" class="myimages">
+              </div>
+
+         
+                <div class="constyleno videontext">
+                      <video autoplay muted loop id="myVideo">
+                            <source src="ecobin.mp4" type="video/mp4">
+                              Your browser does not support HTML5 video.
+                      </video>
+                      <div>
+                              <h1>Final Product</h1>
+                              <p>Garbage sorting web application using machine learning that sorts your garbage for you. 
+                                <br><br>
+                                In addition to using your location, and gamification to keep you going.
+                                <br><br>
+                                It's fast & accessible and easy to adapt. While providing education and tips with each use.
+                                </p>
+
+                      </div>
+                </div>
+
+                <div class="constyleno">
+               
+                   <img src="ecobinex1.png" alt="icon" class="myfeatures">
+                </div>
+
+                <div class="constyleno">
+                  <img src="ecobinex2.png" alt="icon" class="myfeatures">
+               </div>
+
+               <div class="constyleno newsection" id="outcome">
+                <div class="line2"></div>
+                <h1>Outcome</h1>
+              </div>
+
+               <div class="constyleno">
+                <img src="ecobinwin.png" alt="icon" class="mywin">
+             </div>
+
+             <div class="constyleno">
+              <div class="introtext textwidth">
+                <h3>Team Ecobin Won! Placing 1st</h3>
+              
+            
+              </div>
+             
             </div>
+             <div class="constyle sidebycon">
+              <div class="smaller">
+                   <h3>Result</h3>
+                   <p>65% Machine Learning Accuracy <br>
+                    Front-end Development for 5 pages<br>
+                    Presentation Covered all bases <br>
+                    Networked and worked well as a team<br>
+                    </p>
+              </div>
+            
+                <div class="smaller">
+                      <h3>Reflection</h3>
+                      <p>I had to update the user experience and user interface because I have developed a lot since then. I've learned the amazing side of working with different people from different fields. In addition to learning from them and also explaining the importance of UX 
+                      </p>
+                  </div>
+          </div>
 
 
+            
 
-              <div class="constyle ending" style="margin-top:20%">
+
+              <div class="constyle ending">
                 <div class="introtext textwidth">
 
                 
@@ -367,7 +594,7 @@ strong {
     </div>
 
 
-
+  </div>
         </div>
   </div>
   </div>

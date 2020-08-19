@@ -1,6 +1,38 @@
+/* desktop */
+@media only screen and (max-width: 2600px) and (min-width: 2000px) {
+
+  /* body {
+    background-color: rgb(223, 192, 192);
+  } */
+
+.submenu {
+  height: 70vh;
+  background-color: white;
+  box-shadow: 0px 0px 0px;
+  margin-top: -50px;
+  }
+
+  .logo {
+    background-color: white;
+    box-shadow: 0px 0px 0px;
+  }
+
+  .menubox {
+    background-color:white;
+    box-shadow: 0px 0px 0px;
+  }
+}
+
 
 @media only screen
 and (max-width : 1300px) {
+  .mobilemenu {
+    display:none;
+}
+
+.logo {
+  position: relative;
+}
 
   body {
     overflow-x:hidden;
@@ -22,11 +54,22 @@ p {
   font-size: 16px;
 }
 
+ul {
+  margin:0;
+}
 
   .bodycontainer {
       display: grid;
       grid-template-columns: 5% 90% 5%;
 
+
+  }
+
+
+ 
+  .contentcontainer {
+    width: 100%;
+    padding-left:0%;
   }
 
   .container {
@@ -46,36 +89,58 @@ p {
     grid-template-columns: 20% 80%
   }
 
-  .menubox {
-    padding-left:10%;
-    padding-top:0%;
-    margin-top:30%;
-    font-size:12px;
-  }
 
-.submenu h3 {
-  margin-top:-20%;
-  margin-bottom:20%;
+
+.submenu h2 {
+  font-size:1.4em;
+}
+
+.nav {
+  font-size: 16px;
 }
 
   .submenu li {
     padding-top: 10px;
   }
 
+.menubox {
+  padding: 2.2em;
+}
 
 
 
 
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1337px) {
 
 
 
   .bodycontainer {
       display: grid;
       grid-template-columns: 5% 90% 5%;
-
+    
   }
+
+  .card {
+    width: 30%;
+  }
+  .iconcard {
+    width: 60px; 
+    height: 60px;
+  }
+
+
+.contentcontainer {
+  width: 100%;
+  padding-left:0%;
+}
+
+
+.logo {
+  padding: 20px;
+  margin-top: -100px;
+  margin-left: 40px;
+}
+
   .container {
     margin-top:50px;
 
@@ -96,56 +161,106 @@ p {
       display:none;
     }
 
+    .logo {
+      display:block;
+    }
+
     .mobilemenu {
       z-index:5;
-      display:block;
+      display:none;
       position:fixed;
-      height:40px;
-      width:100%;
-      padding-bottom:20px;
-      background-color:white;
+    
+     
+
+      
       /* animation:myfirst 5s;
       -moz-animation:myfirst 5s infinite; /* Firefox */
-      /* -webkit-animation:myfirst 5s infinite; /* Safari and Chrome */ */ */
+      /* -webkit-animation:myfirst 5s infinite; /* Safari and Chrome */ 
     }
 
           .mobilelogo {
             float:left;
             background-size:contain;
             background-repeat:no-repeat;
-            background-image:url("logo.png");
+            background-image:url("logo2.svg");
             height: 60px;
-            width:20px;
+            width:100px;
             margin:15px;
-            margin-left:20px;
+            margin-left:40px;
+            margin-top:30px;
           }
             .mobilemenu ul {
-              margin-left:70px;
+             margin-top: 40px;
+             margin-right: 0.3em;
+           
               float:right;
             }
             .mobilemenu li {
               float:left;
-              margin-right:30px;
+              margin-right:21px;
               font-size:20px;
 
             }
-
-          .mobilemenu a {
-            color:#B6D0D8;
-            text-decoration: none;
-          }
+            .sidebycon {
+              display:block;
+             
+            }
+         
 
   }
 
 
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 600px) {
 
-      body {
-        background-image:url("patternsmall.png");
+      
+  
+
+      .menuhello {
+        display:none;
+      }
+      .mobilemenu {
+        display:block;
+        height: 60px;
       }
 
+      .mobilelogo {
+        margin-top: 8px;
+      }
+
+      .mobilemenu ul {
+        margin-top: 15px;
+      }
+
+      .contentcontainer {
+        margin-top:0px;
+      }
+
+      
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15% 0 8% 0;
+  }
+
+  .cardcontainer {
+    margin-top: 20px;
+  }
+
+      .logo {
+        background-color: white;
+        display:none;
+        box-shadow: 0px 0px 0px;
+        border-radius: 0px;
+        padding: 20px;
+        margin-top: -100px;
+        margin-left: 20px;
+      }
+      
+      .introtext p {
+        width: 200px;
+      }
       .constyle {
-        margin-top:20%;
+        margin-top:10%;
       }
 
       .container {
@@ -156,21 +271,28 @@ p {
         margin:10px;
       }
 
+      .contentcontainer {
+        width: 100%;
+        padding-left:0%;
+      }
+    
+
       .outboundbutton {
           margin-bottom:8%;
       }
 
-      h2 {
-        font-size: 20px;
+      h2, .question h2 {
+        font-size: 18px;
       }
 
       h3 {
-        font-size:20px;
+        font-size:18px;
       }
 
-      p {
+      p, .smaller p{
         font-size: 15px;
-        font-weight:700;
+        width: 100%;
+        font-weight:500;
       }
 
       li {
@@ -188,6 +310,7 @@ p {
 
       .projectviewtext li {
         margin-top:2px;
+    
       }
 
       .projectview {
@@ -200,8 +323,10 @@ p {
 
       .projectviewtext ul {
         margin-top:-5px;
+      
       }
 
+     
       .filler {
         height:60px;
       }
@@ -227,25 +352,41 @@ p {
         font-size:14px;
       }
 
+      .tools li {
+        font-size: 14px;
+      }
+
 
       /* ECOBIN **************************************************/
 
       .imagentext {
       grid-template-columns: 100%;
       grid-template-rows: 30% 70%;
+      height: auto;
       }
+
+    
+      .sidebycon {
+        display:block;
+       
+      }
+
+
+      
+     
 
           .leftimage {
               grid-row:1;
               background-size:cover;
               width: 100%;
-              height:200px;
+              height:150px;
           }
 
           .textleft {
               grid-column:1;
               grid-row:2;
               padding:10%;
+              height: auto;
           }
 
           .textleft li{
@@ -271,14 +412,31 @@ p {
                   }
 
           #myVideo {
-            padding: 10%;
-            height: 500px;
-            width: 80%;
-            margin-bottom:10%;
+           
+            height: auto;
+            
+   
             grid-row:1;
+            margin-bottom: 20px;
           }
 
+          .videontext {
+            display:block;
+            width: 100%;
+            padding: 0%;
+          }
 
+        .videontext p {
+          width: 90%;
+        }
+
+          .myfeatures {
+            width: 100%;
+            padding: 0%;
+            margin-top: 10px;
+          
+          }
+    
 
           .solution .textleft {
             padding:10%;
@@ -366,5 +524,85 @@ p {
 
 
 
+                  .question {
+                    background-color: var(--container);
+
+                    padding-top:10%;
+                    padding-bottom:10%;
+                    padding-left: 5%;
+                    padding-right:5%;
+                    width: 80%;
+                    text-align:center;
+                    margin:5%;
+                    height: inherit;
+
+                    box-shadow:  0px 3px 6px rgba(0, 0, 0, 0.16);
+                    border-radius: 5px;
+
+                  }
+
+               
+    /* CARD RANKING *************************** CARD RANKING *****************************/
+  
+    
+    .cardcontainerrank {
+      display: block;
+      flex-direction: column; 
+      justify-content: space-between;
+      flex-flow: wrap;
+      margin-top: 0px;
+      
+    }
+    
+   
+    
+    
+    .cardrank {
+      box-shadow: var(--shadow);
+      transition: 0.3s;
+      width: 100%;
+      text-align:center;
+      justify-content: center;
+      padding: 0% 0 0% 0;
+    }
+    
+    
+    
+    
+    .iconcard {
+      width: 80px; 
+      height: 80px;
+      background-repeat:none;
+      margin:auto;
+      
+      display:flex;
+      padding: 0px 0 40px 0;
+      justify-self: center;
+    
+    }
+    
+    .iconcardrank {
+      width: 80px; 
+      height: 80px;
+      background-repeat:none;
+      margin:auto;
+      
+      display:flex;
+      padding: 0px 0 0px 0;
+      justify-self: center;
+    
+    }
+    
+  
+    .containericon {
+      padding: 2px 16px;
+    }
+    
+
+
+
+
+                                                                
 
     }
+  }
