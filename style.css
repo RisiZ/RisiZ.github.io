@@ -402,7 +402,7 @@ strong {
 }
 
 .dots {
-  background-image: url("images/dots.svg");
+  background-image: url("dots.svg");
   width: auto;
   height: 7px;
   background-repeat: no-repeat;
