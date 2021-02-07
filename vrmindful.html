@@ -28,7 +28,9 @@
     }
 </style>
 <body>
-
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
     <nav>
        <a href="index.html"><img src="logo.svg" alt="risi zani" class="logo"></a>
 
@@ -57,9 +59,9 @@
                     3 Month Duration & Ongoing </p>
 
                 <div class="tagholds">
-                    <p class="tags">UX & UI</p>
-                    <p class="tags">Front-end</p>
-                    <p class="tags">Team</p>
+                    <p class="tags">User Research</p>
+                    <p class="tags">VR</p>
+                    <p class="tags">UX</p>
                 </div>
             </div>
 
@@ -475,6 +477,18 @@
 
 
 
+        <script>
+            // When the user scrolls the page, execute myFunction 
+            window.onscroll = function() {myFunction()};
+            
+            function myFunction() {
+              var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+              var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+              var scrolled = (winScroll / height) * 100;
+              document.getElementById("myBar").style.width = scrolled + "%";
+            }
+            </script>
+    
 
 
 

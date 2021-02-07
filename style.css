@@ -9,6 +9,20 @@ a {
   text-decoration: none;
 }
 
+.progress-container {
+  width: 100%;
+  height: 5px;
+  background: white;
+  position: fixed;
+}
+
+.progress-bar {
+  height: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#f9d9ff), color-stop(49%, #9debf1), to(#c5c8ff));
+  background: linear-gradient(90deg, #f9d9ff 0%, #9debf1 49%, #c5c8ff 100%);
+  width: 0%;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,6 +373,12 @@ strong {
   margin-top: 20px;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
+}
+
+.smallimg {
+  width: 100px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .tags {

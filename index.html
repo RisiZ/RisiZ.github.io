@@ -24,8 +24,11 @@
 
 
 <body>
-
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
     <nav>
+      
        <a href="index.html"> <img src="logo.svg" alt="risi zani" class="logo"></a>
 
      
@@ -47,6 +50,7 @@
                 <div class="intro">
                     <div class="dots"></div>
                     <h1> Hello!</h1>
+                    <img src="memoji.png" class="smallimg"></img>
                     <h3> I'm Risi Zani, a UX & UI
                         Designer with a Twist </h3>
 
@@ -75,7 +79,7 @@
                                 <p> Web, Graphic & UX/UI<br>
                                     Design Experience
 
-                                    <br><br>Minimal, Clean & User <br> Friendly, Research Based
+                                    <br>Minimal, Clean & User <br> Friendly, Research Based
                                     
                                 </p>
                             </div>
@@ -270,7 +274,17 @@
 
 
 
-
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
 
 
 

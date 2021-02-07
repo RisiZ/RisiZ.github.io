@@ -28,7 +28,9 @@
 
 
 <body>
-
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
     <nav>
        <a href="index.html"> <img src="logo.svg" alt="risi zani" class="logo"></a>
 
@@ -149,6 +151,26 @@
   
         <div class="large_container">
 
+            <div class="textcontent_holder">
+                <h2 class="vrcolor">Character</h2>
+    
+            <div class="problemstate">
+                <div class="paragraph_holder">
+                <h3>Explorer, Innovator & Entrepreneur </h3>
+                <p>I'm a ♎️ that calls herself an Ambivert. 
+                    Socializing and working as a team is exciting 
+                    and rewarding. I also work best in a quiet 
+                    space with no distractions until daybreak. 
+                    I tend to be easily excited at new ideas and 
+                    discovering new perspectives. I founded a small 
+                    design service company with called Pixbyte as well!
+                     My passion is in learning, creating and problem
+                      solving to create innovative solutions.</p>
+                    </div>
+                   
+                    </div>
+        </div>
+
          <div class="textcontent_holder">
                 <h2 class="vrcolor">Work Experience</h2>
 
@@ -204,25 +226,7 @@
           </div>
         
 
-        <div class="textcontent_holder">
-            <h2 class="vrcolor">Character</h2>
 
-        <div class="problemstate">
-            <div class="paragraph_holder">
-            <h3>Explorer, Innovator & Entrepreneur </h3>
-            <p>I'm a ♎️ that calls herself an Ambivert. 
-                Socializing and working as a team is exciting 
-                and rewarding. I also work best in a quiet 
-                space with no distractions until daybreak. 
-                I tend to be easily excited at new ideas and 
-                discovering new perspectives. I founded a small 
-                design service company with called Pixbyte as well!
-                 My passion is in learning, creating and problem
-                  solving to create innovative solutions.</p>
-                </div>
-               
-                </div>
-    </div>
 
 
     <div class="textcontent_holder">
@@ -304,6 +308,18 @@
 
 
 
+
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
 
 
 
