@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -90,18 +90,21 @@ h1 {
   color: #111111;
   font-size: 50px;
   margin: 20px 0px 20px 0px;
+  font-weight: 600;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 35px;
   padding-bottom: 0.5em;
+  font-weight: 600;
 }
 
 h3 {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
   padding-bottom: 0.5em;
+  font-weight: 600;
 }
 
 .h3ontop {
@@ -111,6 +114,7 @@ h3 {
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  font-weight: 600;
 }
 
 p {
@@ -118,6 +122,12 @@ p {
   font-size: 16px;
   line-height: 2.5em;
   color: #111111;
+}
+
+.prolink {
+  color: #FF6767;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 span {
@@ -146,6 +156,14 @@ strong {
 
 .inspocolor {
   color: #4DBBC4;
+}
+
+.heartcolor {
+  color: #FF6767;
+}
+
+.lightheart {
+  color: #F18A8A;
 }
 
 .wrapper {
@@ -344,6 +362,16 @@ strong {
       justify-self: center;
 }
 
+.iconcard2 {
+  width: auto;
+  height: 80px;
+  background-repeat: none;
+  margin: auto;
+  padding: 0px 0 40px 0;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
 .iconcardrank {
   width: 80px;
   height: 80px;
@@ -425,6 +453,14 @@ strong {
   background-image: url("dots.svg");
   width: auto;
   height: 7px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heartdots {
+  background-image: url("heart_dots.svg");
+  width: auto;
+  height: 20px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -963,6 +999,13 @@ strong {
     background-image: url("dots.svg");
     width: auto;
     height: 7px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .heartdots {
+    background-image: url("heart_dots.svg");
+    width: auto;
+    height: 20px;
     background-repeat: no-repeat;
     background-size: contain;
   }
