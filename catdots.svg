@@ -1,0 +1,24 @@
+<svg id="catdots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="10" viewBox="0 0 51 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5c0a4;
+      }
+
+      .cls-2 {
+        fill: #f1c79d;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.533" y1="0.5" x2="-0.333" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7cca7"/>
+      <stop offset="1" stop-color="#ff8d8d"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_9" data-name="Ellipse 9" class="cls-1" cx="5" cy="5" r="5"/>
+  <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-2" cx="5" cy="5" r="5" transform="translate(21)"/>
+  <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-3" cx="5" cy="5" r="5" transform="translate(41)"/>
+</svg>

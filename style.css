@@ -67,6 +67,31 @@ footer {
   transition: all .2s;
 }
 
+.progresstable {
+  display:block;
+position:fixed;
+background-color: white;
+padding: 20px;
+margin-top: 10px;
+border-radius: 5px;
+}
+
+.blurb {
+  max-width: 350px;
+}
+
+.progresstable a p{
+  color: #744D4D;
+  
+}
+
+.progresstable a p:hover {
+  color: #D65E5E;
+}
+
+
+
+
 .navlinks a:hover {
   color: #5AC3FF;
   -webkit-transition: all .5s;
@@ -125,6 +150,20 @@ p {
   color: #111111;
 }
 
+
+
+ul {
+  margin-left:-20px;
+  list-style-image: url(bulletpoint.svg);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color:#744D4D;
+  margin-top: 0px;
+}
+li {
+  margin-top: 10px;
+}
+
 .prolink {
   color: #FF6767;
   text-decoration: underline;
@@ -147,6 +186,8 @@ strong {
   font-weight: 700;
 }
 
+
+
 .ecocolor {
   color: #62CE82 !important;
 }
@@ -165,6 +206,10 @@ strong {
 
 .cohubcolor {
   color: #384540;
+}
+
+.catcolor {
+  color: #E8852E;
 }
 
 
@@ -189,11 +234,11 @@ strong {
 }
 
 .textcontent_holder {
-  padding: 77px 0px 77px 0px;
+  padding: 40px 0px 40px 0px;
 }
 
 .paragraph_holder {
-  padding: 3em 0px 3em 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 .paragraph_holder p {
@@ -204,6 +249,29 @@ strong {
 .introme {
   max-width: 30%;
   text-align: left;
+}
+
+
+.alert {
+  display:flex;
+  background-color:#FFEEF9;
+  border: 1px solid #E81DA4;
+  border-radius: 5px;
+  padding: 13px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.alert img {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.alert p {
+  font-weight: 600;
+}
+.alert strong {
+  color:#E81DA4;
 }
 
 .banner {
@@ -255,6 +323,7 @@ strong {
   grid-column-end: 4;
 }
 
+
 .caseimage_withtext {
   margin: auto;
   margin-top: 30px;
@@ -294,8 +363,14 @@ strong {
 
 .intro {
   padding: 0 0% 0% 0%;
-  width: 320px;
+  width: 450px;
 }
+
+.emailcon {
+  font-weight: 600;
+  color:#BBBBBB;
+}
+
 
 .aboutme {
   float: right;
@@ -314,11 +389,15 @@ strong {
 
 .mainproject_holder .mainprojecttext_holder {
   padding: 5% 0% 5% 0%;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .problemstate_name {
-  max-width: 400px;
+  max-width: 500px;
+}
+
+.problemstate p {
+  font-size: 20px;
 }
 
 .problemstate {
@@ -378,10 +457,115 @@ strong {
       justify-self: center;
 }
 
+
+
+/* Persona */
+
+
+.personalist {
+  display:flex;
+  margin-left: -20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  
+}
+
+.personaphoto1 {
+  background-image: url(nina.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
+  width: 100%;
+  height: 320px;
+}
+.personacon {
+  width: 320px;
+  height:auto;
+  background-color:white;
+  box-shadow: 0px 10px 29px #f1f3f9;
+  margin-left: 20px;
+  border-radius: 10px;
+  
+}
+
+.personacon img {
+  border: solid 0px;
+  border-radius: 5px;
+  
+}
+
+.personatextcon {
+  padding: 10px;
+  min-height: 700px;
+  
+}
+
+.personatextcon p{
+  line-height: 1.5em;
+  color: #756262;
+}
+
+.persona_class_age {
+  display:flex;
+  justify-content: space-between;
+  margin-top: -10px;  
+}
+.persona_class_age p {
+  font-size: 20px;
+  color: #756262;
+  line-height: 1.0em;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color:#EEE3DD;
+  margin: 10px 0px 10px 0px;
+}
+
+.personaquote {
+  padding:20px;
+  background-color:#D65E5E;
+  font-size: 16px;
+  font-weight: 700;
+  
+  
+}
+
+.personaquote p {
+  color:white;
+}
+
+.colorscheme {
+  height:auto;
+  display:flex;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.colorbox {
+  height: 70px;
+  width: 20%;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color:white;
+}
+
+.colorboxwhite {
+  height: 70px;
+  width: 20%;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #744D4D;
+  border: 1px solid #DECFD3;
+}
+
+
+
 .iconcardrank {
   width: 80px;
   height: 80px;
-  background-repeat: none;
+  background-repeat: no-repeat;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -454,7 +638,13 @@ strong {
   -webkit-transition: all .2s;
   transition: all .2s;
 }
-
+.catdots {
+  background-image: url("catdots.svg");
+  width: auto;
+  height: 7px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .dots {
   background-image: url("dots.svg");
   width: auto;
@@ -462,6 +652,8 @@ strong {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
 
 .heartdots {
   background-image: url("heart_dots.svg");
@@ -751,7 +943,7 @@ strong {
   }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1792px) {
   .wrapper {
     padding-left: 5%;
     padding-right: 5%;
@@ -761,7 +953,22 @@ strong {
     margin-top: 50px;
     padding: 5% 20% 5% 20%;
   }
+  .intro {
+    width: 400px;
+  }
 }
+
+@media only screen and (max-width: 1280px) {
+
+.progresstable {
+  display:none;
+}
+.mainproject_holder {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+}
+
 
 @media only screen and (max-width: 1024px) {
   .wrapper {
@@ -813,6 +1020,8 @@ strong {
   .problemstate {
     max-width: 350px;
   }
+
+ 
   .large_container {
     margin: auto;
     margin-top: 50px;
@@ -837,6 +1046,9 @@ strong {
   }
   .intro {
     width: 250px;
+  }
+  .progresstable {
+    display:none;
   }
 }
 
@@ -903,8 +1115,8 @@ strong {
   }
   p {
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    line-height: 1.5em;
+    font-size: 16px;
+    line-height: 1.8em;
     color: #111111;
   }
   .highlight {
@@ -950,7 +1162,7 @@ strong {
     padding: 40px 0px 40px 0px;
   }
   .paragraph_holder {
-    padding: 20px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .paragraph_holder p {
     padding-left: 15px;
@@ -964,7 +1176,7 @@ strong {
   }
   .introme {
     max-width: 100%;
-    text-align: center;
+   
   }
   .introme .tagholds {
     padding: 0% 15% 0% 15%;
@@ -974,6 +1186,10 @@ strong {
   }
   .mainproject_holder .mainprojecttext_holder {
     max-width: 300px;
+  }
+
+  .progresstable {
+    display:none;
   }
   .tags {
     font-family: "Montserrat", sans-serif;
@@ -1097,6 +1313,25 @@ strong {
   .minitab_text {
     margin: 0%;
   }
+
+  .personalist {
+    display:block;
+    margin-left: -20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+  }
+
+  .personacon {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .colorbox, .colorboxwhite {
+    width: 35%;
+  }
+  
+  
   .project_image {
     width: 100%;
     margin: 0%;
