@@ -948,6 +948,9 @@ strong {
     padding-left: 5%;
     padding-right: 5%;
   }
+  .progresstable {
+  display:none;
+}
   .large_container {
     margin: auto;
     margin-top: 50px;
