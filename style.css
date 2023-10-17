@@ -2041,6 +2041,15 @@ width: auto;
   width: 100%;
 }
 }
+@media only screen and (max-width: 1920px) {
+
+  .large_container {
+    margin: auto;
+    margin-top: 50px;
+    padding: 2% 10% 2% 10%;
+  }
+  
+  }
 
 
 
