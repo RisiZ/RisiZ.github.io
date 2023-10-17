@@ -283,8 +283,8 @@ strong {
 }
 
 .wrapper {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .large_container {
@@ -1076,7 +1076,7 @@ strong {
   width: 50%;
   height: 50%;
   margin: 5%;
-  margin-top: 8%;
+  margin-top: 100px;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -2041,14 +2041,17 @@ width: auto;
   width: 100%;
 }
 }
-@media only screen and (max-width: 1920px) {
+
+
+@media only screen and (max-width: 1900px) {
 
   .large_container {
     margin: auto;
     margin-top: 50px;
-    padding: 2% 10% 2% 10%;
+    padding: 5% 20% 5% 20%;
   }
   
+
   }
 
 
