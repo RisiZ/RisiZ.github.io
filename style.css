@@ -1337,7 +1337,12 @@ font-size: 14px;
 }
 
 
-
+@media only screen and (min-width: 2000px) {
+  .wrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
 
 
 
