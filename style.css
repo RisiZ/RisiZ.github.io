@@ -200,7 +200,7 @@ h4 {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
-  line-height: 1.8em;
+  line-height: 2em;
   color: #111111;
 }
 
@@ -682,11 +682,14 @@ strong {
   margin-top: 16px;
   -webkit-box-shadow: 0px 3px 6px #E9EFFC;
   box-shadow: 0px 3px 6px #E9EFFC;
+
 }
+
 
 .stickynote p {
   
   font-size: 16px;
+  line-height: 1.5em;
 }
 
 
